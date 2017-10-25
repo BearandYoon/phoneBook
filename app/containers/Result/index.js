@@ -288,10 +288,10 @@ const mapDispatchToProps = dispatch => ({
   dispatchLoadResult: (sessionId) => dispatch(loadResult(sessionId))
 });
 
-const prepareSelector = value => prepareSelector('result', value);
+const prepareResultSelector = value => prepareSelector('result', value);
 const mapStateToProps = createStructuredSelector({
-  result: prepareSelector('result'),
-  loading: prepareSelector('loading'),
+  result: prepareResultSelector('result'),
+  loading: prepareResultSelector('loading'),
 });
 
 // Wrap the component to inject dispatch and state into it
