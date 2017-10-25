@@ -1,0 +1,24 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.article {
+  max-width: 80vw;
+  margin: 90px auto;
+  z-index: 10;
+}
+
+.view-container {
+  padding-top: 85px;
+  width: 90%;
+  margin: auto
+}
+
+.action-container {
+  margin: 20px;
+  text-align: right;
+}
+
+.btn-add, .btn-cancel {
+  margin: 0 10px;
+}
